@@ -1,0 +1,630 @@
+<!DOCTYPE>
+<html lang="en">
+    <head>
+        
+      <meta charset="utf-8">
+      <title>BookStore</title>
+      <link href="images/114-1145783_transparent-book-vector-png-book-icon-vector-png.png" rel="icon" />
+      <link rel="stylesheet" href="normailze.css">
+      <link rel="stylesheet" href="main.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Charm">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Angkor">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href='https://fonts.googleapis.com/css?family=Karma' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+      <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+     
+    </head>
+    <body>
+     
+        <!--start header-->
+        
+        <section class="header">
+            <div class="header-container">
+                
+                 <img
+                 src="images/board4.jpeg"
+                 width="1520" height="789" class="library-img">
+                 
+
+                <div class="title">
+                
+                
+                <p class="quote-header">
+                    “ Free time is a terrible thing to waste. Read a book. ”
+                    - E.A. Bucchianeri .
+                </p>
+              
+                <a href="#bestseller">
+                    <i class="fas fa-arrow-down arrow-down"></i>
+                </a>
+                
+            </div>
+            
+            <!--start Menu-->
+            
+            <i class="fas fa-bars menulogo" onclick="openmenu()"></i>
+                
+            <div class="menu" id="menu-click">
+                
+                <a href="javascript:void(0)"
+                   class="closebutton-menu" 
+                   onclick="closemenu()">&times;
+                </a>
+                
+                <div class="menu-content">
+                    
+                        <a href="#">Profile</a>
+                        <a href="#">Books</a>
+                        <a href="#">Novels</a>
+                        <a href="#">Authors</a>
+                        <a href="#">Contact Us</a>
+                    
+                </div>
+                
+            </div>
+            
+            <!--end Menu-->
+        </section>
+        
+        <!--end header-->
+        
+         <!--start section bestseller-->
+        
+        <section id="bestseller" class="bestseller-section">
+           
+            <div class="background-bestseller"></div>
+            
+              <h1 class="title-section2">
+                Books Bestsellers
+              </h1>
+                
+              <div class="menu-bestseller">
+                  
+                <ul>
+                    <button class="menu-best-button" 
+                            onclick="openFantasy()">Fantasy</button>
+                    
+                    <button class="menu-best-button"   onclick="openFiction()">Fiction</button>
+                    
+                    <button class="menu-best-button" 
+                            onclick="openHorror()">Horror</button>
+                    
+                    <button class="menu-best-button" 
+                            onclick="openYoungAdult()">Young Adult</button>
+                    
+                    <button class="menu-best-button" 
+                            onclick="openNonFiction()">Non Fiction</button>
+                </ul>
+                
+              </div>
+            
+            <div class="books-row1" id="Fantasy">
+            
+                <!--book1-->
+                <div class="book1">
+                <div class="inner-book1">
+                  <div class="book1front">
+                      <img src="images/books/book1.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book1back">
+                      <p>
+                      Harry Potter's life is miserable. His parents are dead and he's stuck with his heartless relatives, who force him to live in a tiny closet under the stairs. But his fortune changes when he receives a letter that tells him the truth about himself: he's a wizard. 
+                      </p>
+                  </div>
+                </div>
+              </div>
+                
+                <!--book2-->
+                
+                <div class="book2">
+                <div class="inner-book2">
+                  <div class="book2front">
+                      <img src="images/books/book2.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book2back">
+                      <p>
+                      The Dursleys were so mean and hideous that summer that all Harry Potter wanted was to get back to the Hogwarts School for Witchcraft and Wizardry. But just as he's packing his bags, Harry receives a warning from a strange, impish creature named Dobby who says that if Harry Potter returns to Hogwarts, disaster will strike.
+                      </p>
+                  </div>
+                </div>
+              </div>
+                
+                 <!--book3-->
+                
+                <div class="book3">
+                <div class="inner-book3">
+                  <div class="book3front">
+                      <img src="images/books/book3.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book3back">
+                      <p>
+                     Harry Potter's third year at Hogwarts is full of new dangers. A convicted murderer, Sirius Black, has broken out of Azkaban prison, and it seems he's after Harry. Now Hogwarts is being patrolled by the dementors, the Azkaban guards who are hunting Sirius.
+                      </p>
+                  </div>
+                </div>
+              </div>
+                
+                 <!--book4-->
+                
+                <div class="book4">
+                <div class="inner-book4">
+                  <div class="book4front">
+                      <img src="images/books/book4.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book4back">
+                      <p>
+                     Harry Potter is midway through his training as a wizard and his coming of age. Harry wants to get away from the pernicious Dursleys and go to the International Quidditch Cup. He wants to find out about the mysterious event that's supposed to take place at Hogwarts this year.
+                      </p>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+            
+             <div class="books-row2" id="Fiction">
+            
+                <!--book1-->
+                <div class="book5">
+                <div class="inner-book5">
+                  <div class="book5front">
+                      <img src="images/books/book5.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book5back">
+                      <p>
+                     There is a door at the end of a silent corridor. And it’s haunting Harry Pottter’s dreams. Why else would he be waking in the middle of the night, screaming in terror?As the grasp of darkness tightens, Harry must discover the true depth and strength of his friends, the importance of boundless loyalty, and the shocking price of unbearable sacrifice.
+                      </p>
+                  </div>
+                </div>
+              </div>
+                
+                <!--book2-->
+                
+                <div class="book6">
+                <div class="inner-book6">
+                  <div class="book6front">
+                      <img src="images/books/book6.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book6back">
+                      <p>
+                      When Harry Potter and the Half-Blood Prince opens, the war against Voldemort has begun. The Wizarding world has split down the middle, and as the casualties mount, the effects even spill over onto the Muggles. Dumbledore is away from Hogwarts for long periods, and the Order of the Phoenix has suffered grievous losses. And yet, as in all wars, life goes on.
+                      </p>
+                  </div>
+                </div>
+              </div>
+                
+                 <!--book3-->
+                
+                <div class="book7">
+                <div class="inner-book7">
+                  <div class="book7front">
+                      <img src="images/books/book7.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book7back">
+                      <p>
+                         Harry Potter is leaving Privet Drive for the last time. But as he climbs into the sidecar of Hagrid’s motorbike and they take to the skies, he knows Lord Voldemort and the Death Eaters will not be far behind.The protective charm that has kept him safe until now is broken.
+                      </p>
+                  </div>
+                </div>
+              </div>
+                
+                 <!--book4-->
+                
+                <div class="book8">
+                <div class="inner-book8">
+                  <div class="book8front">
+                      <img src="images/books/book8.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book8back">
+                      <p>
+                    While Harry grapples with a past that refuses to stay where it belongs, his youngest son Albus must struggle with the weight of a family legacy he never wanted. As past and present fuse ominously, both father and son learn the uncomfortable truth: sometimes, darkness comes from unexpected places.
+                      </p>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+        
+            <div class="books-row3" id="Horror">
+            
+                <!--book1-->
+                <div class="book9">
+                <div class="inner-book9">
+                  <div class="book9front">
+                      <img src="images/books/book9.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book9back">
+                      <p>
+                    When she stumbles across the ad, she’s looking for something else completely. But it seems like too good an opportunity to miss—a live-in nannying post, with a staggeringly generous salary. And when Rowan Caine arrives at Heatherbrae House, she is smitten—by the luxurious “smart” home fitted out with all modern conveniences, by the beautiful Scottish Highlands, and by this picture-perfect family.
+                      </p>
+                  </div>
+                </div>
+              </div>
+                
+                <!--book2-->
+                
+                <div class="book10">
+                <div class="inner-book10">
+                  <div class="book10front">
+                      <img src="images/books/book10.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book10back">
+                      <p>
+                      Before he can return to New York from Miami, Special Agent A.X.L. Pendergast is called to investigate something very strange that has happened on the west coast of Florida. Dozens of human feet, identically clad in blue have washed up on beaches. All exhibit unmistakeable signs of violence. 
+                      </p>
+                  </div>
+                </div>
+              </div>
+                
+                 <!--book3-->
+                
+                <div class="book11">
+                <div class="inner-book11">
+                  <div class="book11front">
+                      <img src="images/books/book11.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book11back">
+                      <p>
+                         Reacher takes a stroll through a small Wisconsin town and sees a class ring in a pawn shop window: West Point 2005. A tough year to graduate: Iraq, then Afghanistan. The ring is tiny, for a woman, and it has her initials engraved on the inside. Reacher wonders what unlucky circumstance made her give up something she earned over four hard years.
+                      </p>
+                  </div>
+                </div>
+              </div>
+                
+                 <!--book4-->
+                
+                <div class="book12">
+                <div class="inner-book12">
+                  <div class="book12front">
+                      <img src="images/books/book12.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book12back">
+                      <p>
+                   An unspeakable crime. A confounding investigation. At a time when the King brand has never been stronger, he has delivered one of his most unsettling and compulsively readable stories.An eleven-year-old boy’s violated corpse is found in a town park.
+                      </p>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+            
+            <div class="books-row4" id="YoungAdult">
+            
+                <!--book1-->
+                <div class="book13">
+                <div class="inner-book13">
+                  <div class="book13front">
+                      <img src="images/books/book13.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book13back">
+                      <p>
+                   Engagement season is in the air. Eighteen-year-old Princess Leonie “Leo” Kolburg, heir to a faded European spaceship, only has one thing on her mind: which lucky bachelor can save her family from financial ruin?But when Leo’s childhood friend and first love Elliot returns as the captain of a successful whiskey ship, everything changes. 
+                      </p>
+                  </div>
+                </div>
+              </div>
+                
+                <!--book2-->
+                
+                <div class="book14">
+                <div class="inner-book14">
+                  <div class="book14front">
+                      <img src="images/books/book14.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book14back">
+                      <p>
+                      The upheaval in my life began the moment a prince stumbled into my house and asked me to read his fortune. Any other night, I might have made an excuse to get him to leave, but this was no normal visit. My fingers prickled to touch him. So, I granted his request by handing him a single wishbone. When he snapped it, the wish … bled. 
+                      </p>
+                  </div>
+                </div>
+              </div>
+                
+                 <!--book3-->
+                
+                <div class="book15">
+                <div class="inner-book15">
+                  <div class="book15front">
+                      <img src="images/books/book15.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book15back">
+                      <p>
+                         No one knows the extent of the freshly crowned Shadow King’s power. Some say he can command the shadows that swirl around him to do his bidding. Others say they speak to him, whispering the thoughts of his enemies. Regardless, Alessandra knows what she deserves, and she’s going to do everything within her power to get it.
+                      </p>
+                  </div>
+                </div>
+              </div>
+                
+                 <!--book4-->
+                
+                <div class="book16">
+                <div class="inner-book16">
+                  <div class="book16front">
+                      <img src="images/books/book16.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book16back">
+                      <p>
+                   While Memphis and Isaiah run for their lives from the mysterious Shadow Men, Isaiah receives a startling vision of a girl, Sarah Beth Olson, who could shift the balance in their struggle for peace. Sarah Beth says she knows how to stop the King of Crows-but, she will need the Diviners' help to do it.
+                      </p>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+             
+            <div class="books-row5" id="NonFiction">
+            
+                <!--book1-->
+                <div class="book17">
+                <div class="inner-book17">
+                  <div class="book17front">
+                      <img src="images/books/book17.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book17back">
+                      <p>
+                    A naive and idealistic twenty-two-year-old from the Midwest, Adrienne Miller got her lucky break when she was hired as an editorial assistant at GQ magazine in the mid-nineties. Even if its sensibilities were manifestly mid-century—the martinis, powerful male egos, and unquestioned authority of kings—GQ still seemed the red-hot center of the literary world. 
+                      </p>
+                  </div>
+                </div>
+              </div>
+                
+                <!--book2-->
+                
+                <div class="book18">
+                <div class="inner-book18">
+                  <div class="book18front">
+                      <img src="images/books/book18.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book18back">
+                      <p>
+                      In 1941, the first Neumann family member was taken by the Nazis, arrested in German-occupied Czechoslovakia for bathing in a stretch of river forbidden to Jews. He was transported to Auschwitz. Eighteen days later his prisoner number was entered into the morgue book.
+                      </p>
+                  </div>
+                </div>
+              </div>
+                
+                 <!--book3-->
+                
+                <div class="book19">
+                <div class="inner-book19">
+                  <div class="book19front">
+                      <img src="images/books/book19.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book19back">
+                      <p>
+                         The first sleep book by a leading scientific expert—Professor Matthew Walker, Director of UC Berkeley’s Sleep and Neuroimaging Lab—reveals his groundbreaking exploration of sleep, explaining how we can harness its transformative power to change our lives for the better.
+                      </p>
+                  </div>
+                </div>
+              </div>
+                
+                 <!--book4-->
+                
+                <div class="book20">
+                <div class="inner-book20">
+                  <div class="book20front">
+                      <img src="images/books/book20.jpg" width="250" height="350" 
+                           class="img-book"
+                      >
+                  </div>
+                  <div class="book20back">
+                      <p>
+                   In this deeply personal and illuminating memoir about her fifteen-year struggle with heroin, Khar sheds profound light on the opioid crisis and gives a voice to the over two million people in America currently battling with this addiction.
+                      </p>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+            
+        </section>
+        
+        <!--end section bestseller-->
+        
+        <!--start section about-->
+        
+        <section class="about-section">
+        
+            <div class="background-about"></div>
+            
+            
+                
+            <div class="about-us">
+                            <h1 class="title-aboutUs">About Us</h1>
+                            <p class="about-us-p">
+                            BookStore provides a variety of books for rent or purchase throughout the USA. <br>We work with publishers directly to give you the widest choice of books.<br>
+                            Since our establishment in 1999, we help our clients save on books they choose to rent.<br> As we partner with dozens of book providers, you always get the best prices <br>without spending the time to find the best place to rent your favorite<br> novels or college textbooks. Moreover, they are all available for <br>online booking in just a few mouse clicks.
+                            </p> 
+                </div>
+            
+            <div>
+                <button class="button-aboutUs">Learn More</button>
+            </div>
+            
+        </section>
+        
+        <!--end section about-->
+        
+        <!--start section offer-->
+        
+        <section class="offer-section">
+           
+            <div class="offer-content">
+               
+                <h1 class="title-offer">Start a new series -<br> Up to 50% off</h1>
+                
+                <p class="offer-p">We carry the hottest titles, fresh off the printing press as well as timeless classics. For our avid readers, join our book club and save 20%.</p>
+                 
+            </div>
+            
+            <div class="timer-content">
+            
+                    <div class="day-timer"> <p id="day-timer"></p> </div> 
+                    <div class="circle1"></div>
+                    <div class="circle2"></div>
+                    <label class="day-label">DAYS</label>
+                
+                    <div class="hour-timer"> <p id="hour-timer"></p> </div>
+                    <div class="circle3"></div>
+                    <div class="circle4"></div>
+                    <label class="hour-label">HOURS</label>
+                
+                    <div class="minute-timer"> <p id="minute-timer"></p> </div> 
+                    <div class="circle5"></div>
+                    <div class="circle6"></div>
+                    <label class="minute-label">MINUTES</label>
+                
+                    <div class="second-timer"> <p id="second-timer"></p> </div>
+                    <label class="second-label">SECONDS</label>
+                  
+            </div>
+            
+            <button class="button-signUp">Sign Up Now</button>
+            
+        </section>
+        
+        <!--end section offer-->
+        
+        
+        <!--start section quotes-->
+        
+        <section class="backtoschool-section">
+            
+            <div class="background-backtoschool"></div>
+    
+            <div class="backtoschool">
+                            <h1 class="title-backtoschool">Don’t Miss The Chance!<br>Time For Book Shopping!</h1>
+                            <p class="backtoschool-p">
+                            We are beyond happy to announce a huge sale <br>in our stores dedicated to a new school year’s beginning.<br> Come and shop books and media with up to 90% off.<br> Textbooks for all schools and colleges, music, movies, e-courses,<br> e-books, magazines and so much more!<br>
+                            </p> 
+            </div>
+            
+            <div>
+                <button class="button-backtoschool">Purchase</button>
+            </div>
+        
+        </section>
+        
+        <!--end section quotes-->
+        
+        <!--start section quotes-->
+        
+        <section class="quotes-section">
+        
+             <div class="background-quotes"></div>
+            
+             <div class="slideshow-container">
+
+                 
+                <div class="mySlides">
+                    
+                    <img src="images/authors/1.jpg" width="130px" height="130px">
+                    <p>“ A room without books is like a body without a soul.”
+                       <br> <span class="authors">- Marcus Tullius Cicero</span>
+                    </p>
+                    
+                </div>
+
+                <div class="mySlides">
+                    
+                    <img src="images/authors/2.jpg" width="130px" height="130px">
+                    <p>“ You can never get a cup of tea large enough or a book long enough to suit me.”
+                        <br> <span class="authors">- C.S. Lewis</span>
+                    </p>
+                </div>
+
+                <div class="mySlides">
+                    
+                     <img src="images/authors/3.jpg" width="130px" height="130px">
+                     <p>“ If you only read the books that everyone else is reading, you can only think what everyone else is thinking.”
+                         <br> <span class="authors">- Haruki Murakami</span>
+                    </p>
+                </div>
+
+                  <div class="mySlides">
+                      
+                      <img src="images/authors/4.jpg" width="130px" height="130px">
+                     <p>“ If there's a book that you want to read, but it hasn't been written yet, then you must write it.”
+                        <br> <span class="authors">- Toni Morrison</span>
+                     </p>
+                </div>
+                 
+                  <div class="mySlides">
+                      
+                      <img src="images/authors/5.jpg" width="130px" height="130px">
+                     <p>“ If one cannot enjoy reading a book over and over again, there is no use in reading it at all.”
+                        <br> <span class="authors">- Oscar Wilde</span>
+                     </p>
+                </div>
+  
+                 
+                 
+            </div>
+
+        </section>
+        
+        <!--end section quotes-->
+    
+        <footer class="footer">
+        
+            <div class="footer-background"></div>
+            
+            <div class="footer-content">
+                
+                <form>
+                    <h1 class="contact">Connect With Us</h1>
+                    <label class="name">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label class="Email">Email</label>
+                    <input type="text" id="Email" name="Email" placeholder="Your Email..">
+
+                    <label class="subject">Telephone</label>
+                    <input id="subject" name="subject" placeholder="Your mobile number.." ></input>
+                    
+                    <button class="Submit">Submit</button>
+
+                  </form>
+            </div>
+        </footer>
+        
+        <script src="main.js"></script>
+    </body>
+</html>
