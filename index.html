@@ -1,4 +1,4 @@
-<!DOCTYPE>
+<!DOCTYPE >
 <html lang="en">
     <head>
         
@@ -21,17 +21,12 @@
         
         <section class="header">
             <div class="header-container">
-                
-                 <img
-                 src="images/board.jpeg"
+
+                 <img src="images/board.jpeg"
                  width="1520" height="789" class="library-img">
                  
-
-                <div class="title">
-                
-                
                 <p class="quote-header">
-                    “ Free time is a terrible thing to waste. Read a book. ”
+                    “ Free time is a terrible thing to waste. Read a book. ” <br>
                     - E.A. Bucchianeri .
                 </p>
               
@@ -458,30 +453,6 @@
         
         <!--end section bestseller-->
         
-        <!--start section about-->
-        
-        <section class="about-section">
-        
-            <div class="background-about"></div>
-            
-            
-                
-            <div class="about-us">
-                            <h1 class="title-aboutUs">About Us</h1>
-                            <p class="about-us-p">
-                            BookStore provides a variety of books for rent or purchase throughout the USA. <br>We work with publishers directly to give you the widest choice of books.<br>
-                            Since our establishment in 1999, we help our clients save on books they choose to rent.<br> As we partner with dozens of book providers, you always get the best prices <br>without spending the time to find the best place to rent your favorite<br> novels or college textbooks. Moreover, they are all available for <br>online booking in just a few mouse clicks.
-                            </p> 
-                </div>
-            
-            <div>
-                <button class="button-aboutUs">Learn More</button>
-            </div>
-            
-        </section>
-        
-        <!--end section about-->
-        
         <!--start section offer-->
         
         <section class="offer-section">
@@ -516,11 +487,60 @@
                   
             </div>
             
-            <button class="button-signUp">Sign Up Now</button>
-            
+            <button class="button-signUp" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up Now</button>
+            <div id="id01" class="modal">
+              <form class="modal-content animate"  method = "post">
+               
+           <div class="imgcontainer">
+                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                 
+               </div>
+               <div class="container">
+                 <h1>Sign Up</h1>
+                 <p>Please fill in this form to create an account.</p>
+                 
+                 <label for="uname"><b>Username</b></label>
+                 <input type="text" placeholder="Enter Username" name="uname" required>
+           
+                 <label for="email"><b>Email</b></label>
+                 <input type="email" placeholder="Enter Email " name="email" required>
+           
+                 <label for="psw"><b>Password</b></label>
+                 <input type="password" placeholder="Enter Password" name="psw" required>
+                   
+                 <button type="submit">Sign Up</button>
+                 <label>
+                   <input type="checkbox" checked="checked" name="remember"> Remember me</label>
+               </div>
+             </form>
+           </div>
         </section>
         
         <!--end section offer-->
+
+        <!--start section about-->
+        
+        <section class="about-section">
+        
+          <div class="background-about"></div>
+          
+          
+              
+          <div class="about-us">
+                          <h1 class="title-aboutUs">About Us</h1>
+                          <p class="about-us-p">
+                          BookStore provides a variety of books for rent or purchase throughout the USA. <br>We work with publishers directly to give you the widest choice of books.<br>
+                          Since our establishment in 1999, we help our clients save on books they choose to rent.<br> As we partner with dozens of book providers, you always get the best prices <br>without spending the time to find the best place to rent your favorite<br> novels or college textbooks. Moreover, they are all available for <br>online booking in just a few mouse clicks.
+                          </p> 
+              </div>
+          
+          <div>
+              <button class="button-aboutUs">Learn More</button>
+          </div>
+          
+      </section>
+      
+      <!--end section about-->
         
         
         <!--start section quotes-->
